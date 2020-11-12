@@ -28,11 +28,6 @@ li{
   clear:both;
 }
 /* button */
-.btn {
-  text-transform: uppercase;
-  border-radius: 5px;
-  padding: 10px;
-}
 .btn-coral{
   background-color: coral;
   padding: 10px;
@@ -42,7 +37,6 @@ li{
 }
 .btn-coral-big{
   background-color: coral;
-  padding: 15px;
   border-radius: 5px;
   color: white;
   font-size: 20px;
@@ -72,9 +66,12 @@ li{
   line-height: 70px;
 }
 .fixed-nav-left{
+  width: 30%;
   padding-left: 100px;
 }
 .fixed-nav-right{
+  width: 30%;
+  text-align: right;
   padding-right: 100px;
 }
 .fixed-nav ul li{
@@ -86,6 +83,17 @@ li{
 .normal-nav{
   height: 10%;
   background-color: white;
+  line-height: 70px;
+}
+.normal-nav-left .logo{
+  padding-left:100px;
+  padding-top: 23px;
+}
+.normal-nav-right{
+  padding-right: 100px;
+}
+.normal-nav-right li{
+  padding: 0 10px;
 }
 main{
   height: 2000px;
