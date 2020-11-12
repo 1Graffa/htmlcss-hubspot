@@ -38,6 +38,7 @@ li{
 .btn-coral-big{
   background-color: coral;
   border-radius: 5px;
+  padding: 18px 8px;
   color: white;
   font-size: 20px;
   text-decoration: none;
@@ -46,7 +47,6 @@ li{
   background-color: transparent;
   border: 1px solid coral;
   padding:  10px;
-  border: 1px solid coral;
   border-radius: 5px;
   color:coral;
   text-decoration: none;
@@ -54,16 +54,19 @@ li{
 /* HEADER */
 .container{
   height: 800px;
-  background-color: pink;
 }
 .container-nav{
-  height: 100%;
+  position: relative;
 }
 .fixed-nav{
-  height: 10%;
+  height: 80px;
   background-color: lightblue;
   border-bottom: 2px solid black;
   line-height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
 .fixed-nav-left{
   width: 30%;
@@ -81,7 +84,10 @@ li{
   color: blue;
 }
 .normal-nav{
-  height: 10%;
+  position: absolute;
+  top: 80px;
+  height: 80px;
+  width: 100%;
   background-color: white;
   line-height: 70px;
 }
@@ -95,25 +101,41 @@ li{
 .normal-nav-right li{
   padding: 0 10px;
 }
-/* .jumbotron{
-  height: 470px;
+.jumbotron{
+  height: 100%;
+  width: 100%;
   position: relative;
+  background-image:url('../img/jumbotron.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 110% 60%;
+
+
 }
-.jumbo-testo{
+.jumbo-text{
+  padding-left: 100px;
   position: absolute;
   left:0;
   top: 50%;
   transform: translateY(-50%);
   width: 40%;
-  color: white;
+  color: black;
 }
-.jumbo-testo h1{
-  margin-bottom: 40px;
-  text-transform: uppercase;
+.jumbo-text h1{
+  padding: 10px 0;
+  font-size: 45px;
 }
-*/
-
+.jumbo-text h3{
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+.jumbo-text h5{
+  margin-top: 35px;
+  font-weight: 500;
+}
 main{
-  height: 2000px;
+  height: 800px;
   background-color: red;
 }
