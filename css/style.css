@@ -95,6 +95,24 @@ li{
 .normal-nav-right li{
   padding: 0 10px;
 }
+/* .jumbotron{
+  height: 470px;
+  position: relative;
+}
+.jumbo-testo{
+  position: absolute;
+  left:0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40%;
+  color: white;
+}
+.jumbo-testo h1{
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+*/
+
 main{
   height: 2000px;
   background-color: red;
