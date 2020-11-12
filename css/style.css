@@ -9,9 +9,11 @@ body{
 ul{
   list-style: none;
 }
+li{
+  display: inline-block;
+}
 /* classi riutilizzabili */
 .container{
-  width: 80%;
   margin: auto;
 }
 .float-left{
@@ -36,8 +38,7 @@ ul{
   padding: 10px;
   border-radius: 5px;
   color: white;
-  text-decoration: none;
-  text-transform: uppercase;
+  text-decoration: none;;
 }
 .btn-coral-big{
   background-color: coral;
@@ -46,15 +47,47 @@ ul{
   color: white;
   font-size: 20px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 .btn-login{
   background-color: transparent;
   border: 1px solid coral;
-  padding:  10px 55px;
-  border: 1px solid white;
+  padding:  10px;
+  border: 1px solid coral;
   border-radius: 5px;
   color:coral;
   text-decoration: none;
-  text-transform: uppercase;
+}
+/* HEADER */
+.container{
+  height: 800px;
+  background-color: pink;
+}
+.container-nav{
+  height: 100%;
+}
+.fixed-nav{
+  height: 10%;
+  background-color: lightblue;
+  border-bottom: 2px solid black;
+  line-height: 70px;
+}
+.fixed-nav-left{
+  padding-left: 100px;
+}
+.fixed-nav-right{
+  padding-right: 100px;
+}
+.fixed-nav ul li{
+  padding: 5px;
+}
+.fixed-nav .search{
+  color: blue;
+}
+.normal-nav{
+  height: 10%;
+  background-color: white;
+}
+main{
+  height: 2000px;
+  background-color: red;
 }
