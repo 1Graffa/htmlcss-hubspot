@@ -91,7 +91,6 @@ li{
   width: 100%;
   background-color: white;
   line-height: 70px;
-  border-bottom: 2px solid black;
   z-index: 1;
 }
 .normal-nav-left .logo{
@@ -113,7 +112,6 @@ li{
   background-size: 90%;
   background-repeat: no-repeat;
   background-position: 130% 100%;
-
 }
 .jumbo-text{
   padding-left: 100px;
@@ -149,4 +147,10 @@ li{
   border-bottom: 3px solid #394C60;
   background-color: #AFEBE4;
   z-index: 0;
+}
+/* MAIN */
+main{
+  height: 800px;
+  width: 100%;
+  background-color: red;
 }
