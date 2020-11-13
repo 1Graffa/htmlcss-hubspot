@@ -150,7 +150,53 @@ li{
 }
 /* MAIN */
 main{
+  margin-top:  160px ;
   height: 800px;
   width: 100%;
-  background-color: red;
+}
+/* CUBO */
+.cubo{
+  height: 850px;
+  position: relative;
+  background-color: #CAFDFF
+}
+.cubo .cubo-up{
+  text-align: center;
+  position: absolute;
+  top: 0 ;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.cubo-up h2{
+  padding: 20px;
+}
+.cubo-up h5{
+  line-height: 1.6;
+}
+.cubo .cubo-bottom{
+  position: absolute;
+  width: 70%;
+  height: 250px;
+  background-color: pink;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: inset 0 3px 8px rgba(0,0,0,0.2)
+}
+.cubo-bottom-left{
+  height: 100%;
+  width: 30%;
+  background-color: white;
+}
+.cubo-bottom-left .book{
+  width: 60%;
+  margin: 30px auto;
+  line-height: 3;
+  text-align: center;
+}
+.cubo-bottom-right{
+  height: 100%;
+  width: 70%;
+  background-color: green;
 }
