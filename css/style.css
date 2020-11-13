@@ -176,7 +176,7 @@ main{
 .cubo .cubo-bottom{
   position: absolute;
   width: 70%;
-  height: 250px;
+  height: 300px;
   background-color: pink;
   bottom: 0;
   left: 50%;
@@ -191,12 +191,30 @@ main{
 }
 .cubo-bottom-left .book{
   width: 60%;
-  margin: 30px auto;
+  margin: 60px auto;
   line-height: 3;
   text-align: center;
 }
 .cubo-bottom-right{
   height: 100%;
   width: 70%;
-  background-color: green;
+  background-color: white;
+  padding: 50px;
+}
+.cubo-bottom-right h2{
+  line-height: 3;
+}
+.cubo-bottom-right h3{
+  text-transform: uppercase;
+  line-height: 3;
+  
+}
+.cubo-bottom-right p{
+  line-height: 1.6;
+}
+.cubo-bottom-right li{
+  display: inline;
+  color: coral;
+  padding-right: 20px;
+  line-height: 1.6;
 }
