@@ -32,6 +32,14 @@ ul{
   color: white;
   text-decoration: none;
 }
+.btn-indaco{
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  color: #2D3E50;
+  text-decoration: none;
+}
+
 .btn-coral-big{
   background-color: coral;
   border-radius: 5px;
@@ -281,7 +289,93 @@ section{
   display: block;
   margin: 40px 90px;
 }
-.griglia{
+.box-griglia{
   height: 600px;
-  background-color: #00AAB7
+  background-color: #00AAB7;
+  text-align: center;
+  padding-top: 140px;
+  color: white;
+}
+.testo-griglia{
+  margin: 0 315px;;
+}
+.box-griglia h2{
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.4;
+  padding-bottom: 20px;
+}
+.box-griglia p{
+  line-height: 1.6;
+  font-size: 18px;
+}
+/* FOOTER */
+.footer-container{
+  width: 100%;
+  background-color: #2D3E50
+}
+.footer-top{
+  padding: 20px 0;
+}
+footer{
+  line-height: 2;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: #2D3E50;
+  font-size: 14px;
+  color: white;
+}
+footer .col{
+  width: 20%;
+}
+footer .two{
+  margin-left: 5%;
+  margin-right: 2.5%;
+}
+footer .tre{
+  margin-left: 2.5%;
+  margin-right: 5%;
+}
+footer h4{
+  padding: 15px 0;
+}
+footer .special{
+  padding-top: 25px;
+}
+.link li{
+  display: inline-block;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+.link li:not(:first-child){
+padding-left: 15px;
+}
+.link li:hover{
+  color: #00AAB7;
+  cursor: pointer;
+}
+.footer-bottom-language{
+  text-align: center;
+}
+.languages li{
+  display: inline-block;
+  font-size: 15px;
+}
+.languages li:not(:first-child){
+padding-left: 15px;
+padding-bottom: 10px;
+}
+.footer-privacy li{
+  display: inline-block;
+  padding-left: 18px;
+}
+.logobianco{
+  margin-left: -35px;
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: -10px;
+}
+.footer-privacy li{
+  padding-top: 20px;
 }
