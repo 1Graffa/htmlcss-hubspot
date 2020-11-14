@@ -9,9 +9,6 @@ body{
 ul{
   list-style: none;
 }
-li{
-  display: inline-block;
-}
 /* classi riutilizzabili */
 .container{
   margin: auto;
@@ -33,7 +30,7 @@ li{
   padding: 10px;
   border-radius: 5px;
   color: white;
-  text-decoration: none;;
+  text-decoration: none;
 }
 .btn-coral-big{
   background-color: coral;
@@ -76,6 +73,7 @@ li{
   padding-right: 100px;
 }
 .fixed-nav ul li{
+  display: inline-block;
   padding: 5px;
 }
 .fixed-nav .search{
@@ -98,6 +96,7 @@ li{
   padding-right: 100px;
 }
 .normal-nav-right li{
+  display: inline-block;
   padding: 0 10px;
 }
 .jumbotron{
@@ -181,6 +180,9 @@ main{
   background-color: white;
   box-shadow: inset 0 3px 8px rgba(0,0,0,0.2)
 }
+.cubo .cubo-bottom li{
+    display: inline-block;
+}
 .cubo-bottom-left{
   height: 100%;
   width: 30%;
@@ -215,7 +217,6 @@ main{
   vertical-align: middle;
   width: 60%;
 }
-
 .cubo-bottom-right p{
   line-height: 1.6;
 }
@@ -224,4 +225,63 @@ main{
   color: coral;
   padding-right: 20px;
   line-height: 3;
+}
+/* TRE COLONNE */
+section{
+  width: 100%;
+}
+.tre-colonne{
+  width: 70%;
+  margin: auto;
+}
+.colonna{
+  width: 30%;
+  height: 600px;
+  background-color: white;
+  margin: 70px 0;
+}
+.tre-colonne .sales{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.col-top{
+  text-align: center;
+  padding: 30px 0;
+  line-height: 1.6;
+}
+.col-top hr{
+  width: 60%;
+}
+.col-top img{
+  width: 100px;
+}
+.col-top .bag{
+  width: 125px;
+}
+.col-top .table{
+  width: 90px;
+}
+.col-bottom{
+  line-height: 1.6;
+  margin: 15px 0;
+  text-align: center;
+}
+.col-bottom h3{
+  text-align: center;
+  padding: 20px 0;
+  text-transform: uppercase;
+}
+.col-bottom li{
+  text-align: left;
+}
+/* .col-bottom li:last-child{
+  margin-bottom: 40px;
+} */
+.col-bottom a{
+  display: block;
+  margin: 40px 90px;
+}
+.griglia{
+  height: 600px;
+  background-color: #00AAB7
 }
