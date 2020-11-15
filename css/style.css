@@ -309,6 +309,37 @@ section{
   line-height: 1.6;
   font-size: 18px;
 }
+/* SECTION DONNA */
+.donna-top{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.donna-top-left{
+  width: 20%;
+}
+.donna-top-left h2{
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+.donna-top-left p{
+  line-height: 1.6;
+}
+.donna-top-righ{
+  margin-right: 200px;
+  width: 60%;
+}
+.donna-top-right img{
+  width: 140px;
+  vertical-align: middle;
+}
+.donna-top-right li{
+  display: inline-block;
+  padding-left: 20px;
+}
+.side-left,.side-right{
+  padding: 10px;
+}
 /* FOOTER */
 .footer-container{
   width: 100%;
