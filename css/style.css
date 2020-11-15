@@ -39,7 +39,6 @@ ul{
   color: #2D3E50;
   text-decoration: none;
 }
-
 .btn-coral-big{
   background-color: coral;
   border-radius: 5px;
@@ -160,16 +159,19 @@ main{
 }
 /* CUBO */
 .cubo{
-  height: 1000px;
+  height: 800px;
   position: relative;
   background-color: #CAFDFF
 }
 .cubo .cubo-up{
   text-align: center;
   position: absolute;
-  top: 70px;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
+}
+.cubo-up img{
+  width: 300px;
 }
 .cubo-up h2{
   padding: 20px;
@@ -281,6 +283,11 @@ section{
 }
 .col-bottom li{
   text-align: left;
+  padding-left: 35px;
+}
+.col-bottom i{
+  color: coral;
+  padding: 0 10px;
 }
 /* .col-bottom li:last-child{
   margin-bottom: 40px;
@@ -290,8 +297,8 @@ section{
   margin: 40px 90px;
 }
 .box-griglia{
-  height: 600px;
-  background-color: #00AAB7;
+
+  background-image: linear-gradient( to right, #00AAB7, #00B9A9) ;
   text-align: center;
   padding-top: 140px;
   color: white;
@@ -309,6 +316,33 @@ section{
   line-height: 1.6;
   font-size: 18px;
 }
+.griglia{
+  margin-top: 70px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 70px;
+}
+.griglia .customers{
+  padding-bottom: 13px;
+}
+.griglia h5{
+  font-size: 30px;
+  font-weight: bold;
+}
+.riga-uno .boxotto{
+  border-bottom: 1px solid white;
+  width: 25%;
+  padding-bottom: 20px;
+}
+.riga-due .boxotto{
+  width: 25%;
+  padding-top: 20px;
+}
+.griglia .centrale{
+  border-left: 1px solid white;
+  border-right : 1px solid white;
+}
+
 /* SECTION DONNA */
 .donna-top{
   margin-top: 50px;
@@ -316,21 +350,19 @@ section{
   margin-right: 200px;
 }
 .donna-top-left{
-  width: 20%;
+  width: 25%;
+  padding-left: 40px;
 }
 .donna-top-left h2{
   font-size: 50px;
+  font-weight: bold;
   padding-bottom: 20px;
 }
 .donna-top-left p{
   line-height: 1.6;
 }
-.donna-top-righ{
-  margin-right: 200px;
-  width: 60%;
-}
 .donna-top-right img{
-  width: 140px;
+  width: 120px;
   vertical-align: middle;
 }
 .donna-top-right li{
@@ -339,6 +371,37 @@ section{
 }
 .side-left,.side-right{
   padding: 10px;
+}
+.donna-bottom{
+  margin-top: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.donna-bottom .start{
+  width: 50%;
+  height: 200px;
+}
+.donna-bottom .start h2{
+  padding: 20px 0;
+  margin-top: 20px;
+  font-size: 30px;
+}
+.donna-bottom .start p{
+  padding: 20px 0;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+.donna-bottom .start h5{
+  margin-top: 60px;
+  font-weight: normal;
+}
+.donna-bottom .foto{
+  width: 50%;
+}
+.foto img{
+  width: 300px;
+  margin-left: 225px;
+  margin-bottom: 70px;
 }
 /* FOOTER */
 .footer-container{
