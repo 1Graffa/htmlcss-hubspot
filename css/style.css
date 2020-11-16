@@ -248,7 +248,7 @@ section{
   height: 600px;
   background-color: white;
   margin: 70px 0;
-  box-shadow: 0px 0px 5px rgba(50,71,90,0.5);
+  box-shadow: 0px 0px 5px rgba(50,70,90,0.5);
 }
 .tre-colonne .sales{
   margin-left: 5%;
@@ -481,4 +481,34 @@ padding-left: 15px;
 }
 .footer-privacy li{
   padding-top: 20px;
+}
+/* CHATBOT */
+.chat{
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 250px;
+  height: 110px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(50,70,90,1);
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 5%;
+}
+.robottino{
+  position: absolute;
+  top: -25px;
+  left: 100px;
+  box-shadow: 0px 0px 10px rgba(50,70,90,1);
+  border-radius: 50%;
+}
+.croce{
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  color: grey;
+}
+.robottino img{
+  width: 50px;
 }
