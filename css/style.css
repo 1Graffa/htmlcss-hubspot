@@ -153,7 +153,6 @@ ul{
 }
 /* MAIN */
 main{
-  height: 2000px;
   width: 100%;
   background-color: #CAFDFF;
 }
@@ -297,8 +296,8 @@ section{
   display: block;
   margin: 40px 90px;
 }
+/* GRIGLIA */
 .box-griglia{
-
   background-image: linear-gradient( to right, #00AAB7, #00B9A9) ;
   text-align: center;
   padding-top: 140px;
@@ -309,7 +308,7 @@ section{
 }
 .box-griglia h2{
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 900;
   line-height: 1.4;
   padding-bottom: 20px;
 }
@@ -327,8 +326,14 @@ section{
   padding-bottom: 13px;
 }
 .griglia h5{
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: 900;
+}
+.griglia .piu::after{
+  content: "+";
+  font-weight: lighter;
+  font-size: 20px;
+  vertical-align: middle;
 }
 .riga-uno .boxotto{
   border-bottom: 1px solid white;
